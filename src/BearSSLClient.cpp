@@ -24,12 +24,13 @@
 
 #include "ArduinoBearSSL.h"
 
+#define ARDUINO_DISABLE_ECCX08
 #ifndef ARDUINO_DISABLE_ECCX08
 #include <ArduinoECCX08.h>
 #endif
 
 #include "BearSSLTrustAnchors.h"
-#include "utility/eccX08_asn1.h"
+// #include "utility/eccX08_asn1.h"
 
 #include "BearSSLClient.h"
 
